@@ -1,0 +1,149 @@
+.nav-head {
+  margin: 5px;
+  font-family: "DM Serif Display";
+  justify-content: right;
+  padding: 0%;
+  font-weight: 500;
+}
+.nav-title {
+  font-family: "DM Serif Display";
+  font-weight: 1000;
+  font-size: 2rem;
+}
+
+.btn-book2 {
+  border-radius: 8px;
+  font-size: 15px;
+  font-style: normal;
+  padding: 15px 32px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  font-weight: 800;
+  background-color: rgba(255, 153, 0, 0.853);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 50px;
+  opacity: 60%;
+  transition: all 0.5s;
+  align-items: center;
+}
+.btn-book1 {
+  border-radius: 8px;
+  font-size: 15px;
+  font-style: normal;
+  padding: 15px 32px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  font-weight: 800;
+  background-color: rgba(0, 255, 136, 0.112);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 50px;
+  opacity: 90%;
+  transition: all 0.5s;
+  align-items: center;
+}
+
+.btn-book {
+  border-radius: 8px;
+  font-size: 15px;
+  font-style: normal;
+  padding: 15px 32px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0%;
+  cursor: pointer;
+  color: white;
+  font-weight: 800;
+  background-color: rgba(0, 187, 255, 0.572);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 50px;
+  opacity: 90%;
+  transition: all 0.5s;
+}
+
+.head {
+  font-family: "DM Serif Display";
+  margin-bottom: 400px;
+  font-size: 10rem;
+  text-align: center;
+}
+
+.head {
+  animation: color-animation 4s linear infinite;
+}
+
+.head {
+  --color-1: #ff000d;
+  --color-2: #fe0002;
+  --color-3: #ff85ff;
+}
+
+.head {
+  --color-1: #dbad4a;
+  --color-2: #ff000d;
+  --color-3: #bc13fe;
+}
+
+.head {
+  --color-1: #0165fc;
+  --color-2: #ffff00ed;
+  --color-3: #ff028d;
+}
+
+.head {
+  --color-1: white;
+  --color-2: #ffff00ed;
+  --color-3: #87ceeb;
+}
+
+@keyframes color-animation {
+  0% {
+    color: var(--color-1);
+  }
+  32% {
+    color: var(--color-1);
+  }
+  33% {
+    color: var(--color-2);
+  }
+  65% {
+    color: var(--color-2);
+  }
+  66% {
+    color: var(--color-3);
+  }
+  99% {
+    color: var(--color-3);
+  }
+  100% {
+    color: var(--color-1);
+  }
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.container {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.title h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 8.5vw;
+  text-transform: uppercase;
+}
+.carousel-inner {
+  padding: 0%;
+}
+#price-head {
+  font-weight: 500;
+  font-family: "DM Serif Display";
+  font-size: 7rem;
+}
+.container {
+  padding: 20%;
+}
